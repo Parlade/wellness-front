@@ -1,0 +1,49 @@
+<div class="link">
+    <a class="btn btn-outline-primary col-6" [routerLink]="['/home']">Volver a página principal</a>
+</div>
+<div class="jumbotron jumbotron-fluid">
+
+
+    <div class="title">
+        <h1 class="display-4">Facturación</h1>
+    </div>
+
+</div>
+
+<div class="create">
+    <button type="button" class="btn btn-info col-4" [routerLink]="['/invoice/new']">Crear factura</button>
+</div>
+
+
+<div class="invoice">
+    <table class="table table-striped">
+
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Hora</th>
+                <th scope="col">Consumo (Wh)</th>
+                <th scope="col">Precio (€/kWh)</th>
+                <th scope="col">Coste por hora (€)</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let invoice of invoices; let i= index">
+                <th scope="row">{{index}}</th>
+                <td>{{invoice.date}}</td>
+                <td>{{invoice.hour}}</td>
+                <td>{{invoice.consumption}}</td>
+                <td>{{invoice.price}}</td>
+                <td>{{invoice.costPerHour}}</td>
+                <td>
+                    <button (click)="modifyInvoice(i)" type="button" class="btn btn-outline-primary">
+                    Modificar o eliminar
+                </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

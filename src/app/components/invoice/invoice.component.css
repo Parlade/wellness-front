@@ -1,0 +1,26 @@
+.invoice {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.title {
+    margin-left: 10%;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}

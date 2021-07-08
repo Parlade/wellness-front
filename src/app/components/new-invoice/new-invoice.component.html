@@ -1,0 +1,44 @@
+<div class="link">
+    <a class="btn btn-outline-primary col-4" [routerLink]="['/invoice']">Volver a facturación</a>
+</div>
+
+<div class="invoice">
+
+    <form [formGroup]="invoiceForm">
+
+
+        <div class="mb-3">
+            <label for="dateInput" class="form-label">Fecha</label>
+            <input type="text" class="form-control" formControlName="date" id="dateInput" placeholder="Fecha">
+        </div>
+
+        <div class="mb-3">
+            <label for="dateInput" class="form-label">Hora</label>
+            <input type="text" class="form-control" formControlName="hour" id="dateInput" placeholder="Hora">
+        </div>
+
+        <div class="mb-3">
+            <label for="dateInput" class="form-label">Consumo (Wh)</label>
+            <input type="text" class="form-control" formControlName="consumption" id="dateInput" placeholder="Consumo (Wh)">
+        </div>
+
+        <div class="mb-3">
+            <label for="dateInput" class="form-label">Precio (€/kWh)</label>
+            <input type="text" class="form-control" formControlName="price" id="dateInput" placeholder="Precio (€/kWh)">
+        </div>
+
+        <div class="mb-3">
+            <label for="dateInput" class="form-label">Coste por hora (€)</label>
+            <input type="text" class="form-control" formControlName="costPerHour" id="dateInput" placeholder="Coste por hora (€)">
+        </div>
+
+        <div class="update">
+            <button type="button" (click)="createInvoice()" class="btn btn-success col-4">Crear factura</button>
+        </div>
+
+
+
+
+    </form>
+
+</div>

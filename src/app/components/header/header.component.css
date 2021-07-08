@@ -1,0 +1,11 @@
+.logo {
+    padding-top: 5%;
+}
+
+.logo>img {
+    height: 300px;
+}
+
+.name {
+    padding-left: 10%;
+}

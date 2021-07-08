@@ -1,0 +1,11 @@
+.link {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+section {
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}

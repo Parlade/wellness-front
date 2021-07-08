@@ -1,27 +1,41 @@
-# WellnessFront
+# Wellness-Front
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+Wellness-Front is an Angular app where we do a CRUD from invoices.
 
-## Development server
+## Tech
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+wellness-front uses a number of open source projects to work properly:
 
-## Code scaffolding
+- [Angular] - HTML enhanced for web apps!
+- [markdown-it] - Markdown parser done right. Fast and easy to extend.
+- [Bootstrap] - great UI boilerplate for modern web apps
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+And of course wellness-front itself is open source with a [public repository][wellnes-front]
+ on GitHub.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+wellness-front requires [Node.js](https://nodejs.org/) v10+ to run.
 
-## Running unit tests
+Install the dependencies and devDependencies and start the server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+cd wellness-front
+npm i
+ng serve
+```
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+MIT
 
-## Further help
+**Free Software, Hell Yeah!**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [Bootstrap]: <https://getbootstrap.com/>
+   [wellnes-front]: <https://github.com/Parlade/wellness-front>
+   [git-repo-url]: <https://github.com/Parlade/wellness-front.git>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Angular]: <https://angular.io/>
+

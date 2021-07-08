@@ -1,0 +1,18 @@
+.link,
+.update {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.delete {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+.invoice {
+    margin-right: 10%;
+    margin-left: 10%;
+}
